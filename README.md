@@ -1,1 +1,2 @@
 # Verilog-DSCO-Lab-3rd-Sem
+This repository contains the Verilog programming assignments and lab exercises for the 3rd semester lab of the DSCO (Digital Systems and Computer Organization) course. The project showcases different aspects of digital system design and computer organization, such as simplifying using K-maps, multilevel synthesis, arithmetic circuits, comparators and multiplexers, decoders and encoders, flip flops, registers, designing sequential circuits, and counters.
