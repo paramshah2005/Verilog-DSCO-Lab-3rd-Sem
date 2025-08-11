@@ -1,7 +1,6 @@
-module q4(a,b,c,d,f,g);
+module q4(a,b,c,d,f);
 input a,b,c,d;
-output f,g;
-assign g = (~a|~d)&(~b|d);
+output f;
 nand(x1,d,d);
 nand(x2,a,d);
 nand(x3,x1,b);
