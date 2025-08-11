@@ -4,7 +4,7 @@
 module ex();
     reg a, b, c, d;
     wire f,g;
-    q1 example(a, b, c, d, f, g);
+    q1 example(a, b, c, d, f);
     
     // Test sequence
     initial begin
