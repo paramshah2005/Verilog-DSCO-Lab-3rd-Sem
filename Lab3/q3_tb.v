@@ -3,8 +3,8 @@
 
 module ex();
     reg a, b, c, d;
-    wire f,g;
-    q3 example(a, b, c, d, f, g);
+    wire f;
+    q3 example(a, b, c, d, f);
     
     // Test sequence
     initial begin
