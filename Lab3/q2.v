@@ -1,7 +1,6 @@
-module q2(a,b,c,d,f,g);
+module q2(a,b,c,d,f);
 input a,b,c,d;
-output f,g;
-assign g = (~b&~d)|(~a&~c&d)|(~b&~c);
+output f;
 nor(x1,d,d);
 nor(x2,b,d);
 nor(x3,b,c);
