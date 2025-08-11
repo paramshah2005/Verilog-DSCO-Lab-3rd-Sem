@@ -3,7 +3,7 @@
 
 module ex();
     reg a, b, c, d;
-    wire f,g;
+    wire f;
     q1 example(a, b, c, d, f);
     
     // Test sequence
