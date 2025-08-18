@@ -1,0 +1,148 @@
+$date
+	Mon Aug 18 09:49:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ex $end
+$scope module ex1 $end
+$var wire 1 ! carryin $end
+$var wire 1 " x0 $end
+$var wire 1 # x1 $end
+$var wire 1 $ x2 $end
+$var wire 1 % x3 $end
+$var wire 1 & y0 $end
+$var wire 1 ' y1 $end
+$var wire 1 ( y2 $end
+$var wire 1 ) y3 $end
+$var wire 1 * y_xor0 $end
+$var wire 1 + y_xor1 $end
+$var wire 1 , y_xor2 $end
+$var wire 1 - y_xor3 $end
+$var wire 1 . s3 $end
+$var wire 1 / s2 $end
+$var wire 1 0 s1 $end
+$var wire 1 1 s0 $end
+$var wire 1 2 carryout $end
+$scope module adder_sub $end
+$var wire 1 ! carryin $end
+$var wire 1 " x0 $end
+$var wire 1 # x1 $end
+$var wire 1 $ x2 $end
+$var wire 1 % x3 $end
+$var wire 1 * y0 $end
+$var wire 1 + y1 $end
+$var wire 1 , y2 $end
+$var wire 1 - y3 $end
+$var wire 1 . s3 $end
+$var wire 1 / s2 $end
+$var wire 1 0 s1 $end
+$var wire 1 1 s0 $end
+$var wire 1 2 carryout $end
+$var wire 1 3 c3 $end
+$var wire 1 4 c2 $end
+$var wire 1 5 c1 $end
+$scope module stage0 $end
+$var wire 1 ! cin $end
+$var wire 1 5 cout $end
+$var wire 1 1 s $end
+$var wire 1 " x $end
+$var wire 1 * y $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 5 cin $end
+$var wire 1 4 cout $end
+$var wire 1 0 s $end
+$var wire 1 # x $end
+$var wire 1 + y $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 4 cin $end
+$var wire 1 3 cout $end
+$var wire 1 / s $end
+$var wire 1 $ x $end
+$var wire 1 , y $end
+$upscope $end
+$scope module stage3 $end
+$var wire 1 3 cin $end
+$var wire 1 2 cout $end
+$var wire 1 . s $end
+$var wire 1 % x $end
+$var wire 1 - y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+15
+04
+13
+02
+01
+10
+0/
+1.
+0-
+1,
+0+
+1*
+0)
+1(
+0'
+1&
+0%
+1$
+0#
+1"
+0!
+$end
+#20
+1/
+03
+05
+1.
+02
+11
+04
+10
+1-
+0,
+0*
+1)
+0(
+0&
+1#
+#40
+12
+0.
+13
+0/
+14
+00
+15
+1+
+01
+0)
+1(
+1&
+0#
+1!
+#60
+1.
+02
+1/
+11
+10
+0-
+1,
+1*
+1)
+0(
+0&
+1#
+#80
