@@ -41,7 +41,7 @@ The labs cover a range of fundamental topics in digital logic design:
 You can use a Verilog simulator like Icarus Verilog to compile and run the testbenches.
 
 ### Prerequisites
--   [Icarus Verilog](http://iverilog.icarus.com/)
+-   [Icarus Verilog](https://bleyer.org/icarus/)
 -   A waveform viewer like [GTKWave](https://gtkwave.sourceforge.net/)
 
 ### Compilation and Simulation Steps
